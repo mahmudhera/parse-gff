@@ -2,7 +2,7 @@ import argparse
 from Bio import SeqIO
 
 def parse_args():
-    p = argparse.ArgumentParser(description="Parses a GFF file")
+    p = argparse.ArgumentParser(description="Parses a GFF file, and then list all coding genes")
     p.add_argument("fname", help="name of the GFF file")
     #p.add_argument("--scaled", help="scaling factor of the sketch", default=0.1)
     #p.add_argument("-k", "--ksize", type=int, default=21, help="kmer size")
